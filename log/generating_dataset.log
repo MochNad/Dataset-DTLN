@@ -1,0 +1,12 @@
+2025-06-08 17:24:20,619 - INFO - Found 4731 clean audio files for language: en
+2025-06-08 17:24:20,619 - INFO - Found 33 clean audio files for language: id
+2025-06-08 17:24:20,619 - INFO - Found 17 noise types in 6 categories
+2025-06-08 17:24:20,619 - INFO -   domestic: ['kitchen', 'living', 'washing']
+2025-06-08 17:24:20,619 - INFO -   nature: ['field', 'park', 'river']
+2025-06-08 17:24:20,619 - INFO -   office: ['hallway', 'meeting', 'office']
+2025-06-08 17:24:20,619 - INFO -   public: ['cafeter', 'resto', 'station']
+2025-06-08 17:24:20,619 - INFO -   street: ['square', 'traffic']
+2025-06-08 17:24:20,641 - INFO -   transportation: ['bus', 'car', 'metro']
+2025-06-08 17:24:23,816 - INFO - Processing language: en
+2025-06-08 17:24:27,134 - INFO - Processing language: id
+2025-06-08 17:24:29,991 - INFO - Dataset generation complete!

@@ -1,0 +1,7 @@
+2025-06-15 23:50:48,898 - INFO - Starting metric evaluation...
+2025-06-15 23:50:48,898 - INFO - Processing language: en
+2025-06-15 23:50:49,073 - INFO - Processing language: id
+2025-06-15 23:50:49,247 - INFO - Combined 20 CSV files into dataset with shape: (1360, 15)
+2025-06-15 23:50:49,247 - INFO - Calculating statistics for columns: ['clean_audio_duration', 'pesq_score', 'stoi_score', 'mse_score', 'buffer_queue_avg', 'buffer_droped_avg', 'worklet_ms_avg', 'worker_ms_avg', 'model1_ms_avg', 'model2_ms_avg']
+2025-06-15 23:50:49,247 - INFO - Statistics saved to: C:\Users\NADI\Documents\Python\dataset_audio\mixed\evaluates\metrics.csv
+2025-06-15 23:50:49,247 - INFO - Metric evaluation completed successfully!

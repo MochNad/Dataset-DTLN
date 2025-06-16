@@ -1,0 +1,17 @@
+2025-06-16 12:03:29,707 - INFO - Plots will be saved to: C:\Users\NADI\Documents\Python\dataset_audio\mixed\evaluates\visuals
+2025-06-16 12:03:29,707 - INFO - Loading data from: C:\Users\NADI\Documents\Python\dataset_audio\mixed\analyses\metrics
+2025-06-16 12:03:29,709 - INFO - Processing language: en
+2025-06-16 12:03:29,798 - INFO - Processing language: id
+2025-06-16 12:03:29,938 - INFO - Combined data loaded successfully from 20 CSV files
+2025-06-16 12:03:29,938 - INFO - Final shape: (1360, 15)
+2025-06-16 12:03:29,940 - INFO - Languages: ['en', 'id']
+2025-06-16 12:03:29,940 - INFO - Columns: ['clean_audio_language', 'clean_audio_name', 'clean_audio_duration', 'noise_category', 'noise_type', 'snr_level', 'pesq_score', 'stoi_score', 'mse_score', 'buffer_queue_avg', 'buffer_droped_avg', 'worklet_ms_avg', 'worker_ms_avg', 'model1_ms_avg', 'model2_ms_avg']
+2025-06-16 12:03:29,941 - INFO - Generating 5 visualization plots
+2025-06-16 12:03:30,940 - INFO - Quality vs SNR Line Chart saved
+2025-06-16 12:03:31,274 - INFO - Quality by Noise Category Bar Chart saved
+2025-06-16 12:03:31,660 - INFO - Quality vs Performance Scatter Plot saved
+2025-06-16 12:03:31,950 - INFO - Language Comparison Bar Chart saved
+2025-06-16 12:03:33,148 - INFO - Metrics Correlation Pair Plot saved
+2025-06-16 12:03:33,150 - INFO - Plot generation completed!
+2025-06-16 12:03:33,150 - INFO - Success: 5/5 (100.0%)
+2025-06-16 12:03:33,150 - INFO - All plots generated successfully in 'evaluates\visuals' folder!

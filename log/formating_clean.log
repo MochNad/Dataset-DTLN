@@ -1,0 +1,8 @@
+2025-06-08 17:22:19,603 - INFO - Scanning for audio files in: C:\Users\NADI\Documents\Python\dataset_audio\extracted\clean\cv-corpus-21.0-delta-2025-03-14-en\cv-corpus-21.0-delta-2025-03-14\en\clips
+2025-06-08 17:22:23,320 - INFO - Found 21796 audio files
+2025-06-08 17:23:08,107 - INFO - Processing complete: 4731/21796 files converted
+2025-06-08 17:23:08,107 - WARNING - 17065 files failed to process
+2025-06-08 17:23:30,454 - INFO - Scanning for audio files in: C:\Users\NADI\Documents\Python\dataset_audio\extracted\clean\cv-corpus-21.0-delta-2025-03-14-id\cv-corpus-21.0-delta-2025-03-14\id\clips
+2025-06-08 17:23:30,516 - INFO - Found 275 audio files
+2025-06-08 17:23:42,506 - INFO - Processing complete: 33/275 files converted
+2025-06-08 17:23:42,512 - WARNING - 242 files failed to process

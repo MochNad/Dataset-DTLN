@@ -1,0 +1,75 @@
+2025-06-13 00:35:51,947 - INFO - Dataset folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\dataset
+2025-06-13 00:35:51,947 - INFO - Experiment folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\experiment
+2025-06-13 00:35:51,947 - INFO - Output folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\visuals_analysis
+2025-06-13 00:35:51,948 - INFO - Dataset languages: ['en', 'id']
+2025-06-13 00:35:51,948 - INFO - Experiment languages: ['en', 'id']
+2025-06-13 00:35:52,018 - INFO - Generating 1360 visualization plots
+2025-06-13 00:38:43,487 - INFO - Dataset folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\dataset
+2025-06-13 00:38:43,487 - INFO - Experiment folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\experiment
+2025-06-13 00:38:43,487 - INFO - Output folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\visuals_analysis
+2025-06-13 00:38:43,487 - INFO - Dataset languages: ['en', 'id']
+2025-06-13 00:38:43,487 - INFO - Experiment languages: ['en', 'id']
+2025-06-13 00:38:43,579 - INFO - Generating 1360 visualization plots
+2025-06-13 00:43:03,941 - INFO - Dataset folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\dataset
+2025-06-13 00:43:03,941 - INFO - Experiment folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\experiment
+2025-06-13 00:43:03,941 - INFO - Output folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\visuals_analysis
+2025-06-13 00:43:03,941 - INFO - Dataset languages: ['en', 'id']
+2025-06-13 00:43:03,941 - INFO - Experiment languages: ['en', 'id']
+2025-06-13 00:43:04,051 - INFO - Generating 1360 visualization plots
+2025-06-13 00:45:55,910 - INFO - Dataset folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\dataset
+2025-06-13 00:45:55,910 - INFO - Experiment folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\experiment
+2025-06-13 00:45:55,910 - INFO - Output folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\visuals_analysis
+2025-06-13 00:45:55,910 - INFO - Dataset languages: ['en', 'id']
+2025-06-13 00:45:55,910 - INFO - Experiment languages: ['en', 'id']
+2025-06-13 00:45:55,981 - INFO - Generating 1360 visualization plots
+2025-06-13 01:05:37,917 - INFO - Visualization generation completed!
+2025-06-13 01:05:37,917 - INFO - Success: 1360/1360 (100.0%)
+2025-06-13 01:05:37,917 - INFO - Visual analysis generation completed successfully!
+2025-06-13 01:05:37,917 - INFO - Visualization plots saved to: C:\Users\NADI\Documents\Python\dataset_audio\mixed\visuals_analysis
+2025-06-15 14:37:38,664 - INFO - Dataset folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\dataset
+2025-06-15 14:37:38,664 - INFO - Experiment folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\experiment
+2025-06-15 14:37:38,664 - INFO - Output folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\visuals_analysis
+2025-06-15 14:37:38,664 - INFO - Dataset languages: ['en', 'id']
+2025-06-15 14:37:38,664 - INFO - Experiment languages: ['en', 'id']
+2025-06-15 14:37:38,664 - ERROR - Error during visualization generation: 'VisualizationGenerator' object has no attribute '_count_visualizations'
+2025-06-15 14:38:33,034 - INFO - Dataset folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\dataset
+2025-06-15 14:38:33,034 - INFO - Experiment folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\experiment
+2025-06-15 14:38:33,034 - INFO - Output folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\visuals_analysis
+2025-06-15 14:38:33,034 - INFO - Dataset languages: ['en', 'id']
+2025-06-15 14:38:33,034 - INFO - Experiment languages: ['en', 'id']
+2025-06-15 14:38:33,098 - INFO - Generating 1360 visualization plots
+2025-06-15 14:42:12,374 - INFO - Dataset folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\dataset
+2025-06-15 14:42:12,374 - INFO - Experiment folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\experiment
+2025-06-15 14:42:12,374 - INFO - Output folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\visuals_analysis
+2025-06-15 14:42:12,374 - INFO - Dataset languages: ['en', 'id']
+2025-06-15 14:42:12,380 - INFO - Experiment languages: ['en', 'id']
+2025-06-15 14:42:12,458 - INFO - Generating 1360 visualization plots
+2025-06-15 14:46:16,477 - INFO - Visualization generation completed!
+2025-06-15 14:46:16,477 - INFO - Success: 226/1360 (16.6%)
+2025-06-15 14:46:16,477 - INFO - Visualizations saved to: C:\Users\NADI\Documents\Python\dataset_audio\mixed\analysis\visuals
+2025-06-15 14:46:16,477 - WARNING - Failures: 1134 visualizations could not be generated
+2025-06-15 14:46:16,499 - INFO - Visual analysis generation completed successfully!
+2025-06-15 14:46:16,499 - INFO - Visualization plots saved to: C:\Users\NADI\Documents\Python\dataset_audio\mixed\visuals_analysis
+2025-06-15 14:53:14,130 - INFO - Dataset folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\generates\datasets
+2025-06-15 14:53:14,130 - INFO - Experiment folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\generates\experiments
+2025-06-15 14:53:14,130 - INFO - Output folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\visuals_analysis
+2025-06-15 14:53:14,130 - ERROR - Experiment folder does not exist: C:\Users\NADI\Documents\Python\dataset_audio\mixed\generates\experiments
+2025-06-15 14:53:40,412 - INFO - Dataset folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\generates\datasets
+2025-06-15 14:53:40,412 - INFO - Experiment folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\generates\experiments
+2025-06-15 14:53:40,412 - INFO - Output folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\visuals_analysis
+2025-06-15 14:53:40,412 - INFO - Dataset languages: ['en', 'id']
+2025-06-15 14:53:40,412 - INFO - Experiment languages: ['en', 'id']
+2025-06-15 14:53:40,499 - INFO - Generating 1360 visualization plots
+2025-06-15 15:05:21,274 - ERROR - Error creating comparison plot: [Errno 2] No such file or directory: 'analysis\\visuals\\id\\common_voice_id_41927486\\nature\\river\\10 dB.png'
+2025-06-15 15:05:22,364 - ERROR - Error creating comparison plot: [Errno 2] No such file or directory: 'analysis\\visuals\\id\\common_voice_id_41927486\\nature\\river\\5 dB.png'
+2025-06-15 15:12:45,395 - INFO - Dataset folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\generates\datasets
+2025-06-15 15:12:45,395 - INFO - Experiment folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\generates\experiments
+2025-06-15 15:12:45,395 - INFO - Output folder: C:\Users\NADI\Documents\Python\dataset_audio\mixed\analyses\visuals
+2025-06-15 15:12:45,395 - INFO - Dataset languages: ['en', 'id']
+2025-06-15 15:12:45,395 - INFO - Experiment languages: ['en', 'id']
+2025-06-15 15:12:45,460 - INFO - Generating 1360 visualization plots
+2025-06-15 15:35:51,982 - INFO - Visualization generation completed!
+2025-06-15 15:35:51,982 - INFO - Success: 1360/1360 (100.0%)
+2025-06-15 15:35:51,982 - INFO - Visualizations saved to: C:\Users\NADI\Documents\Python\dataset_audio\mixed\analyses\visuals
+2025-06-15 15:35:52,092 - INFO - Visual analyses generation completed successfully!
+2025-06-15 15:35:52,092 - INFO - Visualization plots saved to: C:\Users\NADI\Documents\Python\dataset_audio\mixed\analyses\visuals

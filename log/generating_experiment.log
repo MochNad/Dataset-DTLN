@@ -1,0 +1,8 @@
+2025-06-12 00:25:22,095 - INFO - Input dataset: C:\Users\NADI\Documents\Python\dataset_audio\mixed\dataset
+2025-06-12 00:25:22,095 - INFO - Output experiment: C:\Users\NADI\Documents\Python\dataset_audio\mixed\experiment
+2025-06-12 00:25:22,096 - INFO - Dataset structure validation passed: 2 language folders found
+2025-06-12 00:25:22,125 - INFO - Creating structure for 340 noise scenarios
+2025-06-12 00:25:23,104 - INFO - Experiment structure creation completed successfully!
+2025-06-12 00:25:23,107 - INFO - Created folder structure with SNR levels: ['-5 dB', '0 dB', '5 dB', '10 dB']
+2025-06-12 00:25:23,107 - INFO - No audio files were copied - structure only
+2025-06-12 00:25:23,326 - INFO - Total SNR folders created: 1360

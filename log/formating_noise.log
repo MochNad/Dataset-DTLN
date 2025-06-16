@@ -1,0 +1,39 @@
+2025-06-08 17:24:05,400 - INFO - Scanning for noise folders in: C:\Users\NADI\Documents\Python\dataset_audio\extracted\noise
+2025-06-08 17:24:05,467 - INFO - Found 17 folders with ch01 files
+2025-06-08 17:24:05,501 - INFO - Processing folder: DKITCHEN -> domestic/kitchen
+2025-06-08 17:24:07,776 - INFO - Folder 'domestic/kitchen': 1 files processed
+2025-06-08 17:24:07,776 - INFO - Processing folder: DLIVING -> domestic/living
+2025-06-08 17:24:07,855 - INFO - Folder 'domestic/living': 1 files processed
+2025-06-08 17:24:07,855 - INFO - Processing folder: DWASHING -> domestic/washing
+2025-06-08 17:24:07,919 - INFO - Folder 'domestic/washing': 1 files processed
+2025-06-08 17:24:07,919 - INFO - Processing folder: NFIELD -> nature/field
+2025-06-08 17:24:07,998 - INFO - Folder 'nature/field': 1 files processed
+2025-06-08 17:24:07,998 - INFO - Processing folder: NPARK -> nature/park
+2025-06-08 17:24:08,062 - INFO - Folder 'nature/park': 1 files processed
+2025-06-08 17:24:08,062 - INFO - Processing folder: NRIVER -> nature/river
+2025-06-08 17:24:08,125 - INFO - Folder 'nature/river': 1 files processed
+2025-06-08 17:24:08,125 - INFO - Processing folder: OHALLWAY -> office/hallway
+2025-06-08 17:24:08,172 - INFO - Folder 'office/hallway': 1 files processed
+2025-06-08 17:24:08,172 - INFO - Processing folder: OMEETING -> office/meeting
+2025-06-08 17:24:08,235 - INFO - Folder 'office/meeting': 1 files processed
+2025-06-08 17:24:08,235 - INFO - Processing folder: OOFFICE -> office/office
+2025-06-08 17:24:08,314 - INFO - Folder 'office/office': 1 files processed
+2025-06-08 17:24:08,314 - INFO - Processing folder: PCAFETER -> public/cafeter
+2025-06-08 17:24:08,378 - INFO - Folder 'public/cafeter': 1 files processed
+2025-06-08 17:24:08,378 - INFO - Processing folder: PRESTO -> public/resto
+2025-06-08 17:24:08,448 - INFO - Folder 'public/resto': 1 files processed
+2025-06-08 17:24:08,451 - INFO - Processing folder: PSTATION -> public/station
+2025-06-08 17:24:08,513 - INFO - Folder 'public/station': 1 files processed
+2025-06-08 17:24:08,513 - INFO - Processing folder: SPSQUARE -> street/square
+2025-06-08 17:24:08,596 - INFO - Folder 'street/square': 1 files processed
+2025-06-08 17:24:08,596 - INFO - Processing folder: STRAFFIC -> street/traffic
+2025-06-08 17:24:08,656 - INFO - Folder 'street/traffic': 1 files processed
+2025-06-08 17:24:08,662 - INFO - Processing folder: TBUS -> transportation/bus
+2025-06-08 17:24:08,727 - INFO - Folder 'transportation/bus': 1 files processed
+2025-06-08 17:24:08,729 - INFO - Processing folder: TCAR -> transportation/car
+2025-06-08 17:24:08,792 - INFO - Folder 'transportation/car': 1 files processed
+2025-06-08 17:24:08,794 - INFO - Processing folder: TMETRO -> transportation/metro
+2025-06-08 17:24:08,856 - INFO - Folder 'transportation/metro': 1 files processed
+2025-06-08 17:24:08,858 - INFO - Processing complete:
+2025-06-08 17:24:08,859 - INFO -   - Folders processed: 17/17
+2025-06-08 17:24:08,859 - INFO -   - Files processed: 17
