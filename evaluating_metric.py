@@ -3,6 +3,8 @@ import argparse
 import logging
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 from pathlib import Path
 from typing import List, Dict, Optional
 from tqdm import tqdm
@@ -198,6 +200,65 @@ class MetricEvaluator:
         
         print("="*80)
     
+    def generate_combined_chart(self, stats_df: pd.DataFrame, output_dir: Path) -> None:
+        """Generate a single combined chart with blue colors"""
+        # Set style and color scheme
+        plt.style.use('default')
+        sns.set_palette("Blues_r")
+        
+        # Create figure with subplots (2x2 grid for Min, Max, Mean, Std)
+        fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(16, 12))
+        
+        # Filter out metrics with no data
+        valid_stats = stats_df[stats_df['count'] > 0].copy()
+        
+        if len(valid_stats) == 0:
+            logger.warning("No valid data for chart generation")
+            return
+        
+        # Chart 1: Min values bar chart
+        ax1.bar(valid_stats['metric'], valid_stats['min'], color='steelblue', alpha=0.8)
+        ax1.set_title('Minimum Values by Metric', fontweight='bold', color='black')
+        ax1.set_xlabel('Metrics')
+        ax1.set_ylabel('Min Value')
+        ax1.tick_params(axis='x', rotation=45)
+        ax1.grid(True, alpha=0.3)
+        
+        # Chart 2: Max values bar chart
+        ax2.bar(valid_stats['metric'], valid_stats['max'], color='royalblue', alpha=0.8)
+        ax2.set_title('Maximum Values by Metric', fontweight='bold', color='black')
+        ax2.set_xlabel('Metrics')
+        ax2.set_ylabel('Max Value')
+        ax2.tick_params(axis='x', rotation=45)
+        ax2.grid(True, alpha=0.3)
+        
+        # Chart 3: Mean values bar chart
+        ax3.bar(valid_stats['metric'], valid_stats['mean'], color='dodgerblue', alpha=0.8)
+        ax3.set_title('Mean Values by Metric', fontweight='bold', color='black')
+        ax3.set_xlabel('Metrics')
+        ax3.set_ylabel('Mean Value')
+        ax3.tick_params(axis='x', rotation=45)
+        ax3.grid(True, alpha=0.3)
+        
+        # Chart 4: Standard deviation
+        ax4.bar(valid_stats['metric'], valid_stats['std'], color='cornflowerblue', alpha=0.8)
+        ax4.set_title('Standard Deviation Values by Metric', fontweight='bold', color='black')
+        ax4.set_xlabel('Metrics')
+        ax4.set_ylabel('Standard Deviation')
+        ax4.tick_params(axis='x', rotation=45)
+        ax4.grid(True, alpha=0.3)
+        
+        # Adjust layout
+        plt.tight_layout()
+        
+        # Save chart
+        chart_path = output_dir / 'charts.png'
+        plt.savefig(chart_path, dpi=300, bbox_inches='tight', facecolor='white')
+        plt.close()
+        
+        logger.info(f"Combined chart saved to: {chart_path}")
+        print(f"Chart saved: {chart_path}")
+    
     def run_evaluation(self, output_path: Path) -> None:
         """Run complete evaluation process"""
         logger.info("Starting metric evaluation...")
@@ -210,6 +271,10 @@ class MetricEvaluator:
         
         # Save results
         self.save_statistics(stats_df, output_path)
+        
+        # Generate combined chart
+        output_dir = output_path.parent
+        self.generate_combined_chart(stats_df, output_dir)
         
         logger.info("Metric evaluation completed successfully!")
 
