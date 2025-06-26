@@ -1,0 +1,9 @@
+librosa==0.10.2.post1
+matplotlib==3.10.3
+numpy==2.3.1
+pandas==2.3.0
+pesq==0.0.4
+pystoi==0.4.1
+seaborn==0.13.2
+soundfile==0.12.1
+tqdm==4.66.6
